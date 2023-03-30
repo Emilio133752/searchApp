@@ -1,0 +1,52 @@
+.crs-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.crs-arrows{
+  width:  100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+}
+
+.crs-arrows svg{
+  width: 38px;
+  height: 38px;
+  margin: 25px 25px;
+  color: #fff;
+}
+
+.crs-item{
+  background-size: cover !important;
+  width: 100%;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crs-item img {
+  object-fit: cover;
+}
+
+.crs-dots{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 40px;
+}
+
+.crs-dots svg{
+  width: 18px;
+  height: 18px;
+  margin-right: 15px;
+  color: #fff;
+}

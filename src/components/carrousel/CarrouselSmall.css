@@ -1,0 +1,47 @@
+.crsm-container{
+  width: 250px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} 
+
+.crsm-arrows{
+  width: 250px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  color: #fff;
+}
+
+.crsm-item{
+  background-size: cover !important;
+  width: 250px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crsm-dots{
+  width: 250px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  color: #fff;
+}
+
+.crsm-dots svg{
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
